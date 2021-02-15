@@ -1,0 +1,22 @@
+There is recommended to edit this settigs by user before using the programm for his comfy
+But do not change position of default browser (it has to be at the top of the list!)
+
+<<CodeWords:
+    <Inputs {
+        !browser
+        !and
+        !vsrepos
+        !vsedurepos
+        !desktop
+        !username
+    }>>
+
+    <Outputs {
+        msedge.exe
+        `
+        C:\Users\!username\source\repos
+        C:\Users\!username\source\repos\informatics
+        C:\Users\!username\Desktop
+        2sust
+    }>>
+:CodeWords>>

@@ -1,0 +1,86 @@
+﻿<Window x:Class="RunAwayAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+        xmlns:local="clr-namespace:RunAwayAppWPF"
+        mc:Ignorable="d" x:Name="CmdWindow"
+        Title="RunAway" Height="50" Width="1200"
+        WindowStyle="None" ResizeMode="CanMinimize"
+        AllowsTransparency="True" WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        StateChanged="CmdWindow_StateChanged" Icon="Resources/new.ico"
+        KeyUp="CmdWindow_KeyUp" x:FieldModifier="public"
+        >
+
+    <Grid>
+        <Border Width="auto" Height="auto" BorderBrush="LimeGreen" BorderThickness="0"
+                CornerRadius="16" Background="#202020" Opacity="0.9">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="TextHeight" Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="80"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1">
+                        <Button x:Name="MainButton" Style="{StaticResource TransparentButtonStyle}" Click="MainButton_Click" Margin="0 0 1 0">
+                            <TextBlock Text="->" Foreground="Red" FontSize="25" FontFamily="Consolas" FontWeight="Bold"/>
+                        </Button>
+
+                        <tb:TaskbarIcon 
+                    Visibility="Visible"
+                    ToolTipText="RunAway tray manager" 
+                    IconSource="Resources/favicon.ico"
+                    TrayLeftMouseDown="TaskbarIcon_TrayLeftMouseDown">
+
+                            <tb:TaskbarIcon.ContextMenu>
+                                <ContextMenu x:Name="TrayMenu" Style="{StaticResource TrayStyle1}" BorderThickness="0">
+                                    <MenuItem Header="Open the terminal" Margin="2" Click="MenuItem_Click"/>
+                                    <MenuItem Header="Start cmd" Margin="2" Click="MenuItem_Click_1"/>
+                                    <MenuItem Header="Open math interpreter" Margin="2" Click="MenuItem_Click_2"/>
+                                    <MenuItem Header="Open graph drawer" Margin="2" Click="MenuItem_Click_3"/>
+                                    <Separator Background="Red" Height="2"/>
+                                    <MenuItem Header="Quit" Margin="2" Click="MenuItem_Click_4"/>
+                                </ContextMenu>
+                            </tb:TaskbarIcon.ContextMenu>
+                        </tb:TaskbarIcon>
+                    </Grid>
+
+                    <Grid Grid.Column="0">
+                        <avalonEdit:TextEditor 
+                            x:Name="CommandBox" 
+                            Style="{StaticResource MainTextBoxStyle}" 
+                            x:FieldModifier="public"
+                            WordWrap="False"
+                        />
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <ListView x:Name="ProgramsView"
+                        Margin="20 10 20 20"
+                        Style="{StaticResource ListViewStyle}">
+
+                        <ListView.ContextMenu>
+                            <ContextMenu x:Name="FileContextMenu" Style="{DynamicResource TrayStyle1}" BorderThickness="0">
+                                <MenuItem Header="Open file"  Margin="2" Click="FileContextOpenFileClick"/>
+                                <MenuItem Header="Copy file" Margin="2" Click="FileContextCopyFileClick"/>
+                                <MenuItem Header="Copy file's text" Margin="2" Click="FileContextCopyFileTextClick"/>
+                                <MenuItem Header="Show in file explorer" Margin="2" Click="FileContextShowFileClick"/>
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                    </ListView>
+                </Grid>
+                
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

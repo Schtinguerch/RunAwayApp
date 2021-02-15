@@ -1,0 +1,85 @@
+<<CalculatorReferences:
+    <Arguments {
+        fact
+        ten
+        abs
+        sin
+        cos
+        tg
+        aMath.Sin
+        aMath.Cos
+        aMath.Tan
+        log
+        ln
+        lg
+        exp
+        sqrt
+        sqrn
+        Pi
+        E
+        Deg
+        Min
+        Sec
+        Rad
+        rnd
+        cel
+        random
+        hex
+    }>>
+
+    <Functions {
+        Calc.Factorial
+        Calc.Ten
+        Math.abs
+        Math.Sin
+        Math.Cos
+        Math.Tan
+        Math.Asin
+        Math.Acos
+        Math.Atan
+        Math.Log
+        Calc.Ln
+        Calc.Lg
+        Math.Pow
+        Math.Sqrt
+        Calc.Sqrn
+        Math.PI
+        Math.E
+        *Math.PI/180
+        *Math.PI/180/60
+        *Math.PI/180/3600
+        *180/Math.PI
+        Calc.Snum
+        Calc.Trunc
+        Calc.Rnd
+        Calc.Hex
+    }>>
+
+    <Descriptions {
+        fact(int;s;number);s;-;s;returns;s;number;s;factorial
+        ten(value);s;-;s;returns;s;10;s;rainsed;s;to;s;<n>;s;power;s;
+        abs(value);s;-;s;returns;s;absolute;s;number
+        sin(value;s;<radians>);s;-;s;returns;s;sinus;s;of;s;number
+        cos(value;s;<radians>);s;-;s;returns;s;cosinus;s;of;s;number
+        tg(value;s;<radians>);s;-;s;returns;s;tangens;s;of;s;number
+        asin(value);s;-;s;returns;s;angle;s;(radians);s;from;s;value;s;of;s;sinus
+        acos(value);s;-;s;returns;s;angle;s;(radians);s;from;s;value;s;of;s;cosinus
+        atg(value);s;-;s;returns;s;angle;s;(radians);s;from;s;value;s;of;s;tangens
+        log(value,;s;base);s;-;s;returns;s;logarithm;s;of;s;number
+        ln(value);s;-;s;returns;s;the;s;natural;s;logarithm;s;of;s;number
+        lg(value);s;-;s;returns;s;the;s;decimal;s;logarithm;s;of;s;number
+        exp(base,;s;power);s;-;s;returns;s;base;s;rainsed;s;to;s;<n>;s;power
+        sqrt(value);s;-;s;returns;s;square;s;root;s;of;s;number
+        sqrn(base,;s;value);s;-;s;returns;s;root;s;of;s;<n>;s;power;s;of;s;number
+        const;s;Pi;s;=;s;3.1415926535...
+        const;s;E;s;=;s;2.718281828...
+        <value>;s;Deg;s;-;s;converts;s;degrees;s;to;s;radians;s;=;s;Pi/180
+        <value>;s;Min;s;-;s;converts;s;angular;s;minute;s;to;s;radians;s;=;s;Pi/180/60
+        <value>;s;Min;s;-;s;converts;s;angular;s;second;s;to;s;radians;s;=;s;Pi/180/60/60
+        <value>;s;Rad;s;-;s;converts;s;radians;s;to;s;degrees;s;=;s;180/Pi
+        rnd
+        cel
+        random(value);s;-;s;returns;s;random;s;number
+        hex("value");s;-;s;returns;s;decimal;s;number;s;from;s;hexadecimal;s;system
+    }>>
+:CalculatorReferences>>

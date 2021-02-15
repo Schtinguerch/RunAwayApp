@@ -1,0 +1,26 @@
+﻿<Window x:Class="RunAwayAppWPF.UserWindows.Notepad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:RunAwayAppWPF.UserWindows"
+        xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+        mc:Ignorable="d"
+        Title="Notepad" 
+        Height="450" Width="800" 
+        WindowStyle="None" 
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen"
+        Loaded="Notepad_OnLoaded"
+        Closing="Notepad_OnClosing" KeyDown="Notepad_OnKeyDown">
+    <Grid>
+        <avalonEdit:TextEditor
+            x:Name="notepadTextBox"
+            x:FieldModifier="public"
+            Style="{StaticResource EditorStyle}"
+            WordWrap="False"
+            Height="450" 
+            Width="800">
+        </avalonEdit:TextEditor>
+    </Grid>
+</Window>

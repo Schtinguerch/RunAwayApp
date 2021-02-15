@@ -1,0 +1,21 @@
+<<WebKeysReferences:
+    <Inputs {
+        w:
+        www:
+        a:
+        ask:
+        t:
+        trnslt:
+        translate:
+    }>>
+
+    <Outputs {
+        WwwKey
+        WwwKey
+        AskKey
+        AskKey
+        TranslateKey
+        TranslateKey
+        TranslateKey
+    }>>
+:WebKeysReferences>>

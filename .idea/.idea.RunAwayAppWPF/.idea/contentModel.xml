@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\2sust\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\2sust\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RunAwayAppWPF.1967092678.00" t="ExcludeRecursive" />
+    <e p="C:\Users\2sust\source\repos\RunAwayAppWPF" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RunAwayAppUpdater" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="UserControl1.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="RunAwayAppUpdater.csproj" t="IncludeRecursive" />
+        <e p="UserControl1.xaml" t="Include" />
+        <e p="UserControl1.xaml.cs" t="Include" />
+      </e>
+      <e p="RunAwayAppWPF" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="ApplicationData" t="Include">
+          <e p="addWindow.png" t="Include" />
+          <e p="App.config" t="Include" />
+          <e p="app.manifest" t="Include" />
+          <e p="openfile.png" t="Include" />
+          <e p="packages.config" t="Include" />
+          <e p="savefile.png" t="Include" />
+          <e p="settings.png" t="Include" />
+          <e p="start.png" t="Include" />
+          <e p="крестик.png" t="Include" />
+          <e p="крестикактивый.png" t="Include" />
+          <e p="окно.png" t="Include" />
+          <e p="окноактивный.png" t="Include" />
+          <e p="свернуть.png" t="Include" />
+          <e p="свернутьактивный.png" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Cmd.cs" t="Include" />
+          <e p="Control.cs" t="Include" />
+          <e p="CurrencyConverter.cs" t="Include" />
+          <e p="Exit.cs" t="Include" />
+          <e p="Hide.cs" t="Include" />
+          <e p="Keys" t="Include">
+            <e p="ProrgamKeysMethods.cs" t="Include" />
+            <e p="WebKeysMethods.cs" t="Include" />
+          </e>
+          <e p="KillProcess.cs" t="Include" />
+          <e p="NumeralConverter.cs" t="Include" />
+          <e p="ProgramManager.cs" t="Include" />
+          <e p="Run.cs" t="Include" />
+          <e p="RunAway.cs" t="Include" />
+          <e p="SystemManager.cs" t="Include" />
+          <e p="ToolTable.cs" t="Include" />
+          <e p="Update.cs" t="Include" />
+          <e p="VolumeSetter.cs" t="Include" />
+          <e p="WebManager.cs" t="Include" />
+          <e p="WindowPropertiesSetter.cs" t="Include" />
+          <e p="YoutubeDownloader.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="FormData.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="ICommand.cs" t="Include" />
+          <e p="IRule.cs" t="Include" />
+        </e>
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="UserWindows" t="Include">
+              <e p="GraphDrawer.g.cs" t="Include" />
+              <e p="Notepad.g.cs" t="Include" />
+              <e p="ProgramCalculator.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="ProgramTools" t="Include">
+          <e p="CalculatorManager.cs" t="Include" />
+          <e p="CodeWorker.cs" t="Include" />
+          <e p="CompletionData.cs" t="Include" />
+          <e p="Intermediary.cs" t="Include" />
+          <e p="Schtinguerch.cs" t="Include" />
+          <e p="Sourcer.cs" t="Include" />
+          <e p="TextCorrecter.cs" t="Include" />
+          <e p="UserActivityHook.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="favicon.ico" t="Include" />
+          <e p="new.ico" t="Include" />
+        </e>
+        <e p="RunAwayAppWPF.csproj" t="IncludeRecursive" />
+        <e p="Styles" t="Include">
+          <e p="ButtonStyles.xaml" t="Include" />
+          <e p="ContextMenuStyles.xaml" t="Include" />
+          <e p="TextBlockStyles.xaml" t="Include" />
+        </e>
+        <e p="UserWindows" t="Include">
+          <e p="GraphDrawer.xaml" t="Include" />
+          <e p="GraphDrawer.xaml.cs" t="Include" />
+          <e p="Notepad.xaml" t="Include" />
+          <e p="Notepad.xaml.cs" t="Include" />
+          <e p="Parts" t="Include">
+            <e p="PlotModelDefine.cs" t="Include" />
+            <e p="ProgramCalculatorData.cs" t="Include" />
+            <e p="Variable.cs" t="Include" />
+          </e>
+          <e p="ProgramCalculator.xaml" t="Include" />
+          <e p="ProgramCalculator.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="RunAwayAppWPF.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

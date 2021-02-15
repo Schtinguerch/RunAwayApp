@@ -1,0 +1,67 @@
+<<ControlPanelReferences:
+    <Arguments {
+        main
+        mobility
+        disks
+        computer
+        display
+        programs
+        power
+        defragmenter
+        defsoft
+        folders
+        keyboard
+        langs
+        mouse
+        devices
+        directx
+        policies
+        alldevices
+        audio
+        connections
+    }>>
+
+    <References {
+        control
+        mblctr
+        diskmgmt.msc
+        compmgmt.msc
+        dpiscaling
+        appwiz.cpl
+        powercfg.cpl
+        dfrgui
+        computerdefaults
+        control;s;folders
+        control;s;keyboard
+        intl.cpl
+        main.cpl
+        devmgmt.msc
+        dxdiag
+        gpedit.msc
+        hdwwiz.cpl
+        mmsys.cpl
+        ncpa.cpl
+    }>>
+
+    <Descriptions {
+        launch;s;control;a;panel;s;(main;s;page)
+        opens;s;mobility;s;center
+        opens;s;disk;s;manager
+        opens;s;computer;s;manager;s;panel
+        opens;s;display;s;panel
+        opens;s;programs;s;and;s;components
+        opens;s;power;s;config
+        launch;s;defragmenter
+        opens;s;list;s;of;s;default;s;programs;s;for;s;files
+        opens;s;folder;s;parameters
+        opens;s;keyboard;s;parameters
+        opens;s;region;s;settings
+        opens;s;mouse;s;settings
+        launch;s;device;s;manager
+        opens;s;DirectX;s;diagnostics
+        launch;s;group;s;policies;s;editor
+        launch;s;device;s;manager
+        opens;s;audio;s;device;s;settings
+        opens;s;network;s;connection;s;settings
+    }>>
+:ControlPanelReferences>>

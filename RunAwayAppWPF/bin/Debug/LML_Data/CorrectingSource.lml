@@ -1,0 +1,159 @@
+<<CorrectSourse:
+    Do not change anything here!
+    <LiveInputs {
+        (^|^\s+)(run|rn|ru|opn)
+        (^|^\s+)>+
+        (^|^\s+)(control|ctrl|cntrl)
+        (^|^\s+)(system|sys|ssm|sstm|ss)
+        (^|^\s+)=+
+        (^|^\s+)(update|upd|updt)\s+
+        (^|^\s+)(google|ggl|gl)
+        (^|^\s+)(tools|tls|t.*ls|ts)
+        (^|^\s+)(exit|exit;|ex|ext|xt)
+        (^|^\s+)(hide|hide;|hd|hid)
+        (^|^\s+)(convert|cvrt|conv|cv)
+        (^|^\s+)(valute|vlt|cur|crnc)
+        (^|^\s+)(youtube|ytb|ytbd|ydwnld)
+        (^|^\s+)(volume|vlm|vl)
+        (^|^\s+)(set|st|ste)
+        (^|^\s+)(kill|kl|kil|kll)
+        (^|^\s+)(program|prgrm|prg)
+    }>>
+
+    Do not change anything here!
+    <Inputs {
+        run
+        ->
+        control
+        system
+        =
+        update
+        google
+        tools
+        exit
+        hide
+        convert
+        valute
+        youtube
+        volume
+        set
+        kill
+        program
+    }>>
+
+    Do not change anything here!
+    <Outputs {
+        Run
+        Cmd
+        Control
+        SystemManager
+        Calculator
+        Update
+        WebManager
+        ToolTable
+        Exit
+        Hide
+        NumeralConverter
+        CurrencyConverter
+        YoutubeDownloader
+        VolumeSetter
+        WindowPropertiesSetter
+        KillProcess
+        ProgramManager
+    }>>
+
+:CorrectSourse>>
+
+<<ShortCuts:
+    <Inputs {
+        /div
+        /rep
+        /q
+        /h
+        /ct
+        /sys
+        /vsc
+        /resvs
+        /rst
+        /desktop|/dsk
+        /cvten|/cv10
+        /cv2
+        /cv3
+        /cv4
+        /cv5
+        /cv6
+        /cv7
+        /cv8
+        /cv9
+        /vk
+        /tff
+        /klvg
+        /unicode
+        /ss
+        /winver
+        /drub
+        /erub
+        /mute
+        /umute
+        /sm1
+        /sm2
+        /sm3
+        /swdef|/setdefault
+        /ru-en
+        /en-ru
+        /en-es
+        /es-en
+        /glt
+        /ver
+        /verup
+        /bckp
+        /rcvr
+        /chckver
+    }>>
+
+    <Outputs {
+        ()/()
+        !vsrepos
+        exit
+        hide
+        control;s;main
+        system
+        run;s;C:\Users\!username\AppData\Local\Programs\Microsoft;s;VS;s;Code\Code.exe
+        kill;s;devenv.exe;s;&;s;run;s;C:\Program;s;Files;s;(x86)\Microsoft;s;Visual;s;Studio\2019\Community\Common7\IDE\devenv.exe
+        restart
+        !desktop
+        convert;s;10->
+        convert;s;2->
+        convert;s;3->
+        convert;s;4->
+        convert;s;5->
+        convert;s;6->
+        convert;s;7->
+        convert;s;8->
+        convert;s;9->
+        run;s;!browser;;s;www.vk.com
+        run;s;!browser;;s;www.10fastfingers.com
+        run;s;!browser;;s;www.klavogonki.ru
+        run;s;!browser;;s;www.unicode-table.com/ru
+        system;s;sleep
+        system;s;version
+        valute;s;USD->RUB;s;1
+        valute;s;EUR->RUB;s;1
+        volume;s;mute
+        volume;s;unmute
+        set;s;monitor:;s;1
+        set;s;monitor:;s;2
+        set;s;monitor:;s;3
+        set;s;width:;s;1200
+        google;s;translate:;s;ru->en
+        google;s;translate:;s;en->ru
+        google;s;translate:;s;en->es
+        google;s;translate:;s;es->en
+        google;s;translate:
+        program;s;version
+        program;s;update
+        program;s;backup
+        program;s;recovery
+        program;s;checkupdates
+    }>>
+:ShortCuts>>

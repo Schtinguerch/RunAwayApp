@@ -1,0 +1,125 @@
+<SyntaxDefinition name="RunAway"
+        xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+    <Color name="Comment" foreground="Green" />
+    <Color name="String" foreground="Gold" />
+
+    
+    <RuleSet>
+        <Keywords fontWeight="bold" foreground="aqua">
+          <Word>&#x002F;div</Word>
+          <Word>&#x002F;rep</Word>
+          <Word>&#x002F;q</Word>
+          <Word>&#x002F;h</Word>
+          <Word>&#x002F;ct</Word>
+          <Word>&#x002F;sys</Word>
+          <Word>&#x002F;vsc</Word>
+          <Word>&#x002F;resvs</Word>
+          <Word>&#x002F;rst</Word>
+          <Word>&#x002F;dsk</Word>
+          <Word>&#x002F;desktop</Word>
+          <Word>&#x002F;cv2</Word>
+          <Word>&#x002F;cv3</Word>
+          <Word>&#x002F;cv4</Word>
+          <Word>&#x002F;cv5</Word>
+          <Word>&#x002F;cv6</Word>
+          <Word>&#x002F;cv7</Word>
+          <Word>&#x002F;cv8</Word>
+          <Word>&#x002F;cv9</Word>
+          <Word>&#x002F;cv10</Word>
+          <Word>&#x002F;cvten</Word>
+          <Word>&#x002F;vk</Word>
+          <Word>&#x002F;tff</Word>
+          <Word>&#x002F;klvg</Word>
+          <Word>&#x002F;ss</Word>
+          <Word>&#x002F;winver</Word>
+          <Word>&#x002F;drub</Word>
+          <Word>&#x002F;erub</Word>
+          <Word>&#x002F;mute</Word>
+          <Word>&#x002F;umute</Word>
+          <Word>&#x002F;sm1</Word>
+          <Word>&#x002F;sm2</Word>
+          <Word>&#x002F;sm3</Word>
+          <Word>&#x002F;swdef</Word>
+          <Word>&#x002F;setdefault</Word>
+          <Word>&#x002F;glt</Word>
+          <Word>&#x002F;ru-en</Word>
+          <Word>&#x002F;en-ru</Word>
+          <Word>&#x002F;es-en</Word>
+          <Word>&#x002F;en-es</Word>
+
+          <Word>&#x002F;ver</Word>
+          <Word>&#x002F;verup</Word>
+          <Word>&#x002F;bckp</Word>
+          <Word>&#x002F;rcvr</Word>
+          <Word>&#x002F;chckver</Word>
+
+          <Word>!browser</Word>
+          <Word>!username</Word>
+          <Word>!and</Word>
+          <Word>!vsrepos</Word>
+          <Word>!vsedurepos</Word>
+          <Word>!desktop</Word>
+        </Keywords>
+
+        <Span color="String">
+            <Begin>"</Begin>
+            <End>"</End>
+            <RuleSet>
+                <Span begin="\\" end="." />
+            </RuleSet>
+        </Span>
+
+        <Keywords foreground="magenta" fontWeight="bold">
+            <Word>a:</Word>
+            <Word>ask:</Word>
+            <Word>w:</Word>
+            <Word>www:</Word>
+            <Word>t:</Word>
+            <Word>trnslt:</Word>
+            <Word>translate:</Word>
+            <Word>width:</Word>
+            <Word>monitor:</Word>
+        </Keywords>
+
+        <Rule foreground="red" fontWeight="bold">
+            (^|^\s+|`|`\s+)(run|control|system|-&gt;|tools|=|exit|update|convert|hide|google|valute|volume|set|kill|program)
+        </Rule>
+
+        <Rule foreground="tomato" fontWeight="regular">
+            www.[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(/\S*)?$
+        </Rule>
+
+        <Keywords fontWeight="regular" foreground="gold">
+            <Word>Deg</Word>
+            <Word>Sec</Word>
+            <Word>Min</Word>
+            <Word>Rad</Word>
+        </Keywords>
+
+        <Keywords fontWeight="regular" foreground="aqua">
+            <Word>sin</Word>
+            <Word>cos</Word>
+            <Word>tg</Word>
+            <Word>asin</Word>
+            <Word>acos</Word>
+            <Word>atg</Word>
+            <Word>log</Word>
+            <Word>ln</Word>
+            <Word>lg</Word>
+            <Word>sqrt</Word>
+            <Word>sqrn</Word>
+            <Word>exp</Word>
+            <Word>ten</Word>
+        </Keywords>
+
+        <Keywords fontWeight="bold" foreground="gray">
+            <Word>*</Word>
+            <Word>+</Word>
+            <Word>-</Word>
+            <Word>/</Word>
+            <Word>;</Word>
+            <Word>&gt;</Word>
+            <Word>`</Word>
+        </Keywords>
+    </RuleSet>
+</SyntaxDefinition>

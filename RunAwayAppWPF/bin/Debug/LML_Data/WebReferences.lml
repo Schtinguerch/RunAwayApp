@@ -1,0 +1,39 @@
+<<WebReferences:
+    <Arguments {
+        google
+        yandex
+        bing
+        vk
+        vkontakte
+        fb
+        facebook
+        twitch
+        gmail
+        mail
+        whatsapp
+        translator
+        lang
+        finam
+        klavagonki
+        youtube
+    }>>
+
+    <References {
+        www.gooogle.com
+        www.yandex.ru
+        www.bing.com
+        www.vk.com
+        www.vk.com
+        www.facebook.com
+        www.facebook.com
+        www.twitch.com
+        www.gmail.com
+        www.mail.ru
+        web.whatsapp.com
+        www.translate.google.com
+        www.translate.google.com
+        www.finam.ru
+        www.klavagonki.ru
+        www.youtube.com
+    }>>
+:WebReferences>>

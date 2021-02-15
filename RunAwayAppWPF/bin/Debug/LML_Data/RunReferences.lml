@@ -1,0 +1,51 @@
+<<RunReferences:
+    <Inputs {
+        browser
+        ide
+        exp
+        calc
+        game
+        ctrl
+        word
+        excel
+        pwrpnt
+        obs
+        battle;s;net
+        settings
+        torrent
+        whatsapp
+        viber
+        vk
+        telegram
+        paint
+        vscode
+        skype
+        taskmgr
+        zoom
+    }>>
+
+    <Outputs {
+        chrome.exe
+        devenv.exe
+        explorer.exe
+        calc.exe
+        C:\Program;s;Files;s;(x86)\Overwatch\Overwatch;s;Launcher.exe
+        control.exe
+        winword.exe
+        excel.exe
+        powerpnt.exe
+        C:\Program;s;Files\obs-studio\bin\64bit\obs64.exe
+        C:\Program;s;Files;s;(x86)\Battle.net\Battle.net;s;Launcher.exe
+        C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+        C:\Program;s;Files\qBittorrent\qbittorrent.exe
+        C:\Program;s;Files\WindowsApps\5319275A.WhatsAppDesktop_2.2027.10.0_x64__cv1g1gvanyjgm\app\WhatsApp.exe
+        C:\Users\2sust\AppData\Local\Viber\Viber.exe
+        www.vk.com
+        C:\Program;s;Files\WindowsApps\TelegramMessengerLLP.TelegramDesktop_2.2.0.0_x64__t4vj0pshhgkwm\Telegram.exe
+        mspaint.exe
+        C:\Users\2sust\AppData\Local\Programs\Microsoft;s;VS;s;Code\Code.exe
+        C:\Program;s;Files\WindowsApps\Microsoft.SkypeApp_15.61.100.0_x86__kzf8qxf38zg5c\Skype\Skype.exe
+        taskmgr.exe
+        C:\Users\2sust\AppData\Roaming\Zoom\bin\Zoom.exe
+    }>>
+:RunReferences>>

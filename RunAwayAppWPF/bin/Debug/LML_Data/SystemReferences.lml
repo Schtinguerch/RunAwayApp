@@ -1,0 +1,33 @@
+<<SystemReferences:
+    <Arguments {
+        restore
+        charmap
+        about
+        pcconnect
+        version
+        diskcheck
+        off
+    }>>
+
+    <References {
+        %WINDIR%\SYSTEM32\RESTORE\RSTRUI.EXE
+        charmap
+        msinfo32
+        mstsc
+        winver
+        chkdsk
+        shutdown
+    }>>
+
+    <SpecCommandsCount 4>>
+
+    <Name0 scan>>
+    <Name1 sleep>>
+    <Name2 hibernation>>
+    <Name3 test>>
+
+    <Spec0 cmd.exe;;s;sfc;s;/scannow;s;&;s;pause>>
+    <Spec1 cmd.exe;;s;powercfg;s;-a>>
+    <Spec2 cmd.exe;;s;powercfg;s;-h>>
+    <Spec3 cmd.exe;;s;ipconfig;s;&;s;pause>>
+:SystemReferences>>

@@ -1,0 +1,85 @@
+﻿<Window x:Class="RunAwayAppWPF.UserWindows.GraphDrawer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RunAwayAppWPF.UserWindows"
+        xmlns:oxyPlot="http://oxyplot.org/wpf"
+        mc:Ignorable="d"
+        Title="GraphDrawer" Height="450" Width="800" Name="GraphDrawerr" Icon="/Resources/favicon.ico"
+        WindowStyle="None" SizeChanged="Window_SizeChanged" Background="#1c1c1c">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="Transparent" Name="ToolBar" MouseDown="ToolBar_MouseDown">
+            <Polygon x:Name="Hat"
+                Fill="Silver" 
+                Opacity="0.2" 
+                Points="150,0
+                    160,10
+                    640,10
+                    650,0"/>
+
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Width="130">
+                <Button Width="25" Style="{StaticResource MenuStripButtonStyle}" Margin="0 0 20 0" Click="Button_Click_1">
+                    <Image Height="22" Source="/ApplicationData/addWindow.png"/>
+                </Button>
+                <Image Height="15" Width="15" Margin="5" Name="LowButton" MouseDown="LowButton_MouseDown">
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Setter Property="Source" Value="/ApplicationData/свернуть.png"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsMouseOver, ElementName=LowButton}" Value="True">
+                                    <Setter Property="Source" Value="/ApplicationData/свернутьактивный.png"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Height="15" Width="15" Margin="5" Name="UpButton" MouseDown="UpButton_MouseDown">
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Setter Property="Source" Value="/ApplicationData/окно.png"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsMouseOver, ElementName=UpButton}" Value="True">
+                                    <Setter Property="Source" Value="/ApplicationData/окноактивный.png"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Height="15" Width="15" Margin="5 5 12 5" Name="CloseButton" MouseDown="CloseButton_MouseDown">
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Setter Property="Source" Value="/ApplicationData/крестик.png"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsMouseOver, ElementName=CloseButton}" Value="True">
+                                    <Setter Property="Source" Value="/ApplicationData/крестикактивый.png"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <TextBlock Text="Function range" Style="{StaticResource LableStyle}" Margin="10 5 10 0"/>
+            <TextBox Style="{StaticResource TextBoxStyle}" Width="50" Margin="130 3 10 0" HorizontalAlignment="Left" Name="rangeA" Text="-10"/>
+            <TextBlock Text="to" Style="{StaticResource LableStyle}" Margin="200 5 10 0" HorizontalAlignment="Left"/>
+            <TextBox Style="{StaticResource TextBoxStyle}" Width="50" Margin="230 3 10 0" HorizontalAlignment="Left" Name="rangeB" Text="10"/>
+
+            <TextBlock Text="Formula" Style="{StaticResource LableStyle}" Margin="10 5 315 0" HorizontalAlignment="Right"/>
+            <TextBox Style="{StaticResource TextBoxStyle}" Width="250" Margin="230 3 50 0" HorizontalAlignment="Right" Name="formulaTextBox" Text="exp(x, x)"/>
+            <Button  Width="30" Height="27" HorizontalAlignment="Right" Margin="0 3 10 0" Click="Button_Click"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <oxyPlot:PlotView x:Name="Grapher" Background="#1c1c1c"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+<<PadReferences:
+    <Inputs {
+        math
+        graph
+        help
+    }>>
+
+    <Outputs {
+        ProgramCalculator
+        GraphDrawer
+        HelpWindow
+    }>>
+:PadReferences>>

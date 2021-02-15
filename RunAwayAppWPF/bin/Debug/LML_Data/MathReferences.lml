@@ -1,0 +1,15 @@
+<<MathReferences:
+    <Inputs {
+        (^|^\s+);gt;
+        ([(]|[(]\s+);gt;
+        out
+        endl 
+    }>>
+
+    <Outputs {
+        double
+        (int
+        Calc.StringAdd
+        "\n"
+    }>>
+:MathReferences>>

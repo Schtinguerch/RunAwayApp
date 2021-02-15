@@ -1,0 +1,9 @@
+<<WindowSettings:
+    <Width 1000>>
+    <Height 50>>
+    <CornerRadius 16>>
+    <Opacity 0.9>>
+    <FontSize 20>>
+    <MainColor Red>>
+    <Theme Dark>>
+:WindowSettings>>
